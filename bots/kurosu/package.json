@@ -1,0 +1,19 @@
+{
+  "name": "gpchat-bot-kurosu",
+  "version": "0.1.0",
+  "description": "Bot Kurosu : envies, films, acteurs, tendances, où voir, quiz (TMDB + OMDb)",
+  "license": "MIT",
+  "private": true,
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@gpchat/bot": "file:../../packages/sdk",
+    "@gpchat/bot-ops": "file:../../packages/ops"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  }
+}

@@ -4,8 +4,8 @@
   "license": "MIT",
   "description": "Bibliothèque ouverte de bots GPChat",
   "scripts": {
-    "install:all": "npm --prefix packages/ops install && npm --prefix bots/cinema install && npm --prefix bots/devfest install && npm --prefix bots/dev-alerts install && npm --prefix bots/reminders install && npm --prefix bots/football install && npm --prefix _template install",
-    "test": "npm --prefix packages/sdk test && npm --prefix packages/ops test && npm --prefix bots/cinema test && npm --prefix bots/devfest test && npm --prefix bots/dev-alerts test && npm --prefix bots/reminders test && npm --prefix bots/football test && npm --prefix _template test",
+    "install:all": "npm --prefix packages/ops install && npm --prefix bots/cinema install && npm --prefix bots/kurosu install && npm --prefix bots/devfest install && npm --prefix bots/dev-alerts install && npm --prefix bots/reminders install && npm --prefix bots/football install && npm --prefix _template install",
+    "test": "npm --prefix packages/sdk test && npm --prefix packages/ops test && npm --prefix bots/cinema test && npm --prefix bots/kurosu test && npm --prefix bots/devfest test && npm --prefix bots/dev-alerts test && npm --prefix bots/reminders test && npm --prefix bots/football test && npm --prefix _template test",
     "release": "node scripts/release.mjs"
   }
 }

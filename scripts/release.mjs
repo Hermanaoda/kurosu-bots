@@ -17,7 +17,7 @@ const KINDS = { correctif: 'patch', patch: 'patch', mineur: 'minor', minor: 'min
 
 const dir = bot === 'ops' ? 'packages/ops' : `bots/${bot}`;
 if (!bot || !KINDS[kind] || !fs.existsSync(path.join(ROOT, dir, 'package.json'))) {
-  console.error('Usage : node scripts/release.mjs <cinema|devfest|dev-alerts|reminders|football|ops> <correctif|mineur|majeur> [--dry-run]');
+  console.error('Usage : node scripts/release.mjs <cinema|kurosu|devfest|dev-alerts|reminders|football|ops> <correctif|mineur|majeur> [--dry-run]');
   process.exit(2);
 }
 const git = (...a) => execFileSync('git', a, { cwd: ROOT, encoding: 'utf8' }).trim();

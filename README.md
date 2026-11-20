@@ -5,6 +5,7 @@ Open library of ready-to-run GPChat bots — fork them, run them, learn from the
 
 | Bot | @username | Ce qu'il fait | Hébergement type |
 |---|---|---|---|
+| [`bots/kurosu`](bots/kurosu) — **Kurosu** | `@bot_aTY4UTzr` | Ciné Club + les **envies** de Kurosu (😂 Rigoler, 😱 Frissons, 💕 Romance, ⏱ J'ai 2 h…) : des films en un clic, sans IA | Docker, polling |
 | [`bots/cinema`](bots/cinema) — **Ciné Club** | `@cineclub_bot` | Fiches de films (affiche, notes IMDb / Rotten Tomatoes / Metacritic), acteurs, tendances, sorties, où regarder en streaming, comparaison, quiz, liste « à voir », FR/EN | Docker, polling |
 | [`bots/devfest`](bots/devfest) — **DevFest Guide** | `@devfest_guide_bot` | Programme, session en cours / prochaine, rappels 10 min avant, vote du public, FAQ, annonces, FR/EN | Docker, polling |
 | [`bots/dev-alerts`](bots/dev-alerts) — **Dev Alerts** | `@devalerts_bot` | GitHub, Uptime Kuma et webhooks JSON → groupe GPChat | Docker + HTTPS entrant |

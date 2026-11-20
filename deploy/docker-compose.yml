@@ -21,6 +21,16 @@ services:
     ports: ["127.0.0.1:9101:9100"]   # /healthz /readyz /metrics (jamais exposés sur Internet)
     volumes: ["cinema-data:/data"]
 
+  kurosu:
+    <<: *bot
+    build: { context: .., dockerfile: bots/kurosu/Dockerfile }
+    environment:
+      GPCHAT_API_KEY: ${KUROSU_GPCHAT_API_KEY:?clé API du bot Kurosu}
+      TMDB_TOKEN: ${TMDB_TOKEN:?jeton TMDB}
+      OMDB_API_KEY: ${OMDB_API_KEY:-}
+    ports: ["127.0.0.1:9106:9100"]
+    volumes: ["kurosu-data:/data"]
+
   # Le Guide DevFest tourne en production sur Firebase (webhook) : version Docker seulement sur demande
   # (docker compose --profile devfest up -d devfest), sinon deux consommateurs pour le même bot.
   devfest:
@@ -68,6 +78,7 @@ services:
 
 volumes:
   cinema-data:
+  kurosu-data:
   devfest-data:
   alerts-data:
   reminders-data:

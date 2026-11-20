@@ -1,0 +1,77 @@
+{
+  "name": "Kurosu",
+  "username": "bot_aTY4UTzr",
+  "category": "entertainment",
+  "deliveryMode": "polling",
+  "description": "Que regarder ce soir ? Choisissez une envie (😂 Rigoler, 😱 Frissons, 💕 Romance…) et recevez des films, ou demandez une fiche : affiche, notes, acteurs, où regarder en streaming, quiz et liste « à voir ». Données TMDB et OMDb.",
+  "commands": [
+    {
+      "command": "envie",
+      "description": "Des films selon votre envie"
+    },
+    {
+      "command": "film",
+      "description": "Fiche d’un film"
+    },
+    {
+      "command": "acteur",
+      "description": "Fiche d’un acteur"
+    },
+    {
+      "command": "tendances",
+      "description": "Films du moment"
+    },
+    {
+      "command": "bientot",
+      "description": "Prochaines sorties"
+    },
+    {
+      "command": "hasard",
+      "description": "Un film au hasard (genre facultatif)"
+    },
+    {
+      "command": "ou_voir",
+      "description": "Où regarder un film"
+    },
+    {
+      "command": "similaires",
+      "description": "Films du même genre"
+    },
+    {
+      "command": "comparer",
+      "description": "Comparer deux films (A | B)"
+    },
+    {
+      "command": "liste",
+      "description": "Ma liste à voir"
+    },
+    {
+      "command": "ajouter",
+      "description": "Ajouter à ma liste"
+    },
+    {
+      "command": "retirer",
+      "description": "Retirer de ma liste (numéro)"
+    },
+    {
+      "command": "quiz",
+      "description": "Devinez le film"
+    },
+    {
+      "command": "langue",
+      "description": "Langue (fr ou en)"
+    },
+    {
+      "command": "pays",
+      "description": "Pays pour le streaming"
+    },
+    {
+      "command": "aide",
+      "description": "Toutes les commandes"
+    },
+    {
+      "command": "apropos",
+      "description": "Sources des données"
+    }
+  ]
+}
